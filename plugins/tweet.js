@@ -11,7 +11,7 @@ let handler = async (m, { conn, text }) => {
     replies: '69',
     likes: '177013',
     retweets: '666'
-  }), 'tweet.png', '*©ヴァイオレット*', m)
+  }), 'tweet.png', '*©Ciel*', m)
 }
 
 handler.help = ['tweet <username>|<tweet>']
