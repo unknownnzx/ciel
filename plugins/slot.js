@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
     let uang = `${text}`
     let jackpot = Math.ceil(uang * 5)
     let win = Math.ceil(uang * 1)
-    if (uang < 2500) throw 'Minimal 2500'
+    if (uang < 1000) throw 'Minimal 1000'
     let users = global.DATABASE._data.users
     if (uang > users[m.sender].uang) throw 'Uang Anda Tidak Cukup'
     let emojis = ["🍏","🍎","🍊","🍋","🍑","🪙","🍅","🍐"];
