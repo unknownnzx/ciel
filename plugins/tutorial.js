@@ -12,14 +12,19 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ┃
 ┇       Untuk Githubnya
 ┃
-┃ ❖ git clone https://unx21/violet
+┃ ❖ git clone https://unknownnzx/ciel
 ┃ ❖ ls
-┃ ❖ cd ciolet
+┃ ❖ cd ciel
 ┃
 ┇  Terakhir Penginstalannya Cuy
 ┃
 ┃ ❖ npm i
 ┃ ❖ node . [ session name is optional ]
+┃
+┃
+┃ ❖ Kunjungi Github unx21 untuk mencoba Bot dengan banyak fitur lainnya
+┃
+┃   atau bisa di cek di https://youtube.com/channel/UCeBQibDq0-d5vji8_RBDiVw
 ┃
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trim(), m)
