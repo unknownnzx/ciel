@@ -25,7 +25,6 @@ let tags = {
   'tools': 'Tools',
   'jadibot': 'Jadi Bot',
   'premium': 'Premium Menu',
-  'player': 'Player',
   'owner': 'Owner',
   'host': 'Host',
   'database': 'Database',
