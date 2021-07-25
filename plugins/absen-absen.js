@@ -30,7 +30,7 @@ ${list}
 `, m, { contextInfo: { mentionedJid: absen } })
 }
 handler.help = ['absen']
-handler.tags = ['Absen']
+handler.tags = ['absen']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
 handler.register = false
