@@ -1,7 +1,7 @@
 {
   "name": "Ciel",
   "version": "2.1.2",
-  "description": "Basic Bot Wa",
+  "description": "Basic Bot WhatsApp",
   "depecrated": false,
   "main": "index.js",
   "directories": {
