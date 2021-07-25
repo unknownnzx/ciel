@@ -13,7 +13,7 @@ try {
   let img = await q.download()
   let url = await uploadImage(img)
   let wanted = `https://videfikri.com/api/textmaker/wanted/?urlgbr=${url}&text1=${text1}&text2=${text2}`
-  let stiker = await sticker(null, wanted, 'Wanted', 'Violet')
+  let stiker = await sticker(null, wanted, 'Wanted', 'Ciel')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
