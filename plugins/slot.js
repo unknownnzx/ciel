@@ -1,7 +1,7 @@
 let { MessageType } = require('@adiwajshing/baileys')
 let num = /([0-9])$/i
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'Masukkan jumlah Uang Yang Akan Anda Slot'
+    if (!text) throw 'Masukkan Uang Yang Akan Anda Slot'
     if (!num.test(text)) throw 'Hanya Angka'
     let uang = `${text}`
     let jackpot = Math.ceil(uang * 5)
