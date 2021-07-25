@@ -10,8 +10,8 @@ let handler = async function (m, { text, usedPrefix }) {
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
-  if (age < 18) throw 'Maaf, Anda belum bisa mendaftar.'
-  if (age > 40) throw 'Maaf, Anda terlalu tua.'
+  if (age < 1) throw 'Maaf, Anda belum bisa mendaftar.'
+  if (age > 100) throw 'Maaf, Anda terlalu tua.'
   user.name = name
   user.age = parseInt(age)
   user.regTime = + new Date
