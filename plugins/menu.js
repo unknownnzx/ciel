@@ -5,7 +5,6 @@ let tags = {
   'main': 'Main',
   'xp': 'Exp & Limit',
   'sticker': 'Sticker',
-  'islamic': 'Islamic',
   'weebs': 'Weebs',
   'expression': 'Expression',
   'game': 'Game',
