@@ -1,7 +1,6 @@
 let util = require('util')
 let path = require('path')
 let { spawn } = require('child_process')
-await m.reply(global.wait)
 
 // Magernulis By MFarelS:V
 let handler  = async (m, { conn, text }) => {
