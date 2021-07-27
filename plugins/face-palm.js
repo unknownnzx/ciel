@@ -3,6 +3,7 @@ const { sticker } = require('../lib/sticker')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn}) => {
+await m.reply(global.wait)
   try {
   let res = await fetch('https://some-random-api.ml/animu/face-palm')
   let json = await res.json()
@@ -24,12 +25,12 @@ handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
-handler.register = true
+handler.register = false
 
 handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
