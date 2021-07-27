@@ -3,6 +3,7 @@ const { sticker } = require('../lib/sticker')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn}) => {
+await m.reply(global.wait)
   try {
   let res = await fetch('https://neko-love.xyz/api/v1/punch')
   let json = await res.json()
@@ -19,6 +20,7 @@ let stiker = await sticker(null, url, 'Punch', 'Ciel')
 handler.help = ['punch']
 handler.tags = ['expression']
 handler.command = /^punch/i
-handler.register = true
+handler.register = false
+handler.limit = true
 
 module.exports = handler
