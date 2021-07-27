@@ -3,6 +3,7 @@ const { sticker } = require('../lib/sticker')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn}) => {
+await m.reply(global.wait)
   try {
   let res = await fetch('https://neko-love.xyz/api/v1/neko')
   let json = await res.json()
@@ -20,5 +21,6 @@ handler.help = ['nyan']
 handler.tags = ['expression']
 handler.command = /^nyan/i
 handler.register = false
+handler.limit = true
 
 module.exports = handler
