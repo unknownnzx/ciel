@@ -7,6 +7,7 @@ let tags = {
   'sticker': 'Sticker',
   'weebs': 'Weebs',
   'expression': 'Expression',
+  'randimg': 'Random Image',
   'game': 'Game',
   'fun': 'Fun',
   'anonymous': 'Anonymous Chat',
@@ -34,9 +35,9 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 %me 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┏━━━ *「 %me 」*
+┇
+┣ ┅ ━━━━━
 ┃
 ┃ ❖ Hai %name!
 ┃
@@ -46,34 +47,33 @@ const defaultMenu = {
 ┃ ❖ *Saldo:* Rp%saldo
 ┃ ❖ *Limit:* %limit
 ┃
-┃ ❖ *Hari:* %week %weton
-┃ ❖ *Tanggal:* %date
-┃ ❖ *Tanggal Islam:* %dateIslamic
-┃ ❖ *Waktu:* %time WITA
+┃ ⊱ *Hari:* %week %weton
+┃ ⊱ *Tanggal:* %date
+┃ ⊱ *Tanggal Islam:* %dateIslamic
+┃ ⊱ *Waktu:* %time WITA
 ┃
-┃ ❖ *Uptime:* _%uptime_ (%muptime)
-┃ ❖ *Database:* %rtotalreg of %totalreg
-┃ ❖ *Owner:*
+┃ • *Uptime:* _%uptime_ (%muptime)
+┃ • *Database:* %rtotalreg of %totalreg
+┃ • *Owner:*
 ┃      _https://bit.ly/unxzx_
-┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┗ ┅ ━━━━━━━━━━
 %readmore
-┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 Thanks to 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ❖ Nurutomo
-┃ ❖ St4rz
-┃ ❖ DrawlNag
-┃ ❖ Ariffb
-┃ ❖ RC047
-┃ ❖ Kokoronationz
-┃ ❖ Unx
-┃ ❖ Megane
-┃ ❖ Dan Kawan-kawan
+┏━━━ *「 Thanks To 」*
+┣ ┅ ━━━━━
+┃
+┃ ° Nurutomo
+┃ ° St4rz
+┃ ° DrawlNag
+┃ ° Ariffb
+┃ ° RC047
+┃ ° Kokoronationz
+┃ ° Megane
+┃ ° Dan Kawan-kawan
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
-  header: '┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n┇       *「 %category 」*\n┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━',
-  body: '┃ ❖  %cmd %islimit %isPremium',
-  footer: '┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n',
+  header: '┏━━━ *「 %category 」*\n┣ ┅ ━━━━━',
+  body: '┃ ➥  %cmd %islimit %isPremium',
+  footer: '┗ ┅ ━━━━━━━━━━\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
