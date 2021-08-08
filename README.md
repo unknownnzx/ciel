@@ -43,7 +43,7 @@ Recode [`violet`](https://Github.com/unx21/violet)
 ## Run
 
 ```bash
-> node . [<session name>] (session name is optional)
+> node ciel
 ```
 
 ---------
