@@ -1,4 +1,4 @@
-// Pngocok handal
+// Anda adalah Pngocok handal
 
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
@@ -16,9 +16,9 @@ ${json.lyrics}\n\n
 ${json.links.genius}
 `, m)
 }
-handler.help = ['lirik'].map(v => v + ' <Apa>')
+handler.help = ['lirik','lrc'].map(v => v + ' <Apa>')
 handler.tags = ['internet']
-handler.command = /^(lirik|lyrics|lyric)$/i
+handler.command = /^(lirik|lyrics|lyric|lrc)$/i
 handler.limit = true
 
 module.exports = handler
