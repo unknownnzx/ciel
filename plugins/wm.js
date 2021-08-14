@@ -21,5 +21,6 @@ handler.tags = ['sticker']
 handler.command = /^wm$/i
 handler.register = false
 handler.limit = true
+handler.premium = true
 
 module.exports = handler
