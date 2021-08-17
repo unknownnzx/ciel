@@ -99,11 +99,7 @@ conn.logger.level = 'debug'
 
 ---------
 
-#### Powered By :
-<a href="https://api.xteam.xyz"><img src="https://img.shields.io/badge/XTEAM%20-%23121011.svg?&style=for-the-badge&logo=&logoColor=white"/></a>
-
-#### Author / Creator : 
-<a href="https://github.com/Nurutomo/wabot-aq"><img alt="GitHub" src="https://img.shields.io/badge/NURUTOMO%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
-
-#### Master : 
-<a href="https://github.com/unx21/violet"><img alt="GitHub" src="https://img.shields.io/badge/UNX%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) | [![Megane](https://github.com/MisakaMikoto10.png?size=100)](https://github.com/MisakaMikoto10) 
+----|----|----|----
+[XTEAM](https://api.xteam.xyz/) | [Nurutomo](https://github.com/Nurutomo) | [unx](https://github.com/unx21) | [Megane](https://github.com/MisakaMikoto10)
+Powered by XTEAM | Author / Creator | Ciel Master | Most Active Contributor
