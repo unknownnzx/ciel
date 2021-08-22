@@ -6,7 +6,7 @@
 <a href="#"><img title="Ciel" src="https://img.shields.io/badge/Ciel-cyan?color=cyan&style=flat-square"></a>
 </p>
 <p align="center">
-<a href="https://github.com/unknownnzx"><img title="Creator" src="https://img.shields.io/badge/Creator-unxknownnzx-gold.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/unknownnzx"><img title="Creator" src="https://img.shields.io/badge/Creator-unknownnzx-gold.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/unknownnzx/ciel/network/members"><img title="Forks" src="https://img.shields.io/github/forks/unknownnzx/ciel?label=Forks&color=purple&style=flat-square"></a>
